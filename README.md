@@ -1,7 +1,6 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers) [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
-
 
 <p align="center">
   <kbd>
@@ -9,16 +8,14 @@
   </kbd>
 </p>
 
-
 Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
-
 If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
-
 ## Sections
+
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Work Experience\
@@ -32,8 +29,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
-
+To view a live example, **[click here](https://bilalhadid.netlify.app/)**.
 
 ## Getting Started 🚀
 
@@ -46,13 +42,13 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
+
 ### Docker Commands
 
 ```
 1) BUILD IMAGE : docker build -t developerfolio:latest .
 2) RUN IMAGE: docker run -p 3000:3000 developerfolio:latest
 ```
-
 
 ## How To Use 🔧
 
@@ -95,8 +91,8 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
 2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
 
 ```javascript
- // .env
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+// .env
+REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE";
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
@@ -157,20 +153,24 @@ const twitterDetails = { ... }
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
 #### Adding Twitter Time line to your Page
+
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
 ```javascript
 const twitterDetails = {
-  userName : "Your Twitter Username"
+  userName: "Your Twitter Username",
 };
 ```
+
 Note: Don't use `@` symbol when adding username.
 
 ## Deployment 📦
+
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
 #### Configuring GitHub Actions
+
 - Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
 - When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
@@ -194,7 +194,6 @@ You could also host directly with Netlify by linking your own repository.
 
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
-
 ## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
@@ -206,12 +205,11 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [color-thief](https://github.com/lokesh/color-thief)
 
 ## Illustrations
+
 - [UnDraw](https://undraw.co/illustrations)
 
-
-
-
 ## For the Future
+
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
@@ -280,7 +278,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
-
